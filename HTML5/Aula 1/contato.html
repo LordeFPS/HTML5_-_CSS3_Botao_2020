@@ -40,12 +40,51 @@
             </ul>
         </nav>
     </header>
-    <!-- <main>
+    <main>
         <h2><i>Contato</i></h2>
-        <p>        
-            <span>Descrição:</span> Estudante de Egenharia de Controle e Automação, mente empreendedor e inovadora.  
-        </p>
-    </main> -->
+        
+        <form method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" value="" placeholder="Nome Completo" id="nome" />
+            <br />
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" value="" placeholder="contato@email.com.br" id="email" />
+            <br />
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" value="" placeholder="99 9 9999-9999" id="telefone" />
+            <br />
+            <label for="altura">Altura:</label>
+            <input type="number" name="idade" min=1.00 max=3.00 step=0.01 value="" placeholder="" id="idade" />m
+            <br />
+            <label for="nasc">Data de nascimento:</label>
+            <input type="date" name="nasc" value=""  id="nasc" />
+            <br />
+            <label for="msg">Mensagem</label>
+            <textarea name="msg" id="msg" cols=50></textarea>
+            <br />
+            Responder por:<br>
+            <input id="opt1" type="checkbox" name="responder" value="email"> <label for="opt1">E-mail</label>
+            <input id="opt2"  type="checkbox" name="responder" value="telefone"> <label for="opt2">Telefone</label>
+            <input id="opt3" type="checkbox" name="responder" value="whatsapp"> <label for="opt3">WhatsApp</label>
+            <input id="opt4" type="checkbox" name="responder" value="correio"> <label for="opt4">Correio</label>
+            <br />
+            Melhor horário:<br>
+            <input id="rd1" type="radio" name="horario" value="manha"> <label for="rd1">Manhã</label>
+            <input id="rd2"  type="radio" name="horario" value="tarde"> <label for="rd2">Tarde</label>
+            <input id="rd3" type="radio" name="horario" value="noite"> <label for="rd3">Noite</label>
+            <br />
+            <select name="cidade">
+                <option value="blumenau">Blumenau</option>
+                <option value="gaspar">Gaspar</option>
+                <option value="indaial">Indaial</option>
+            </select>
+            <br />
+            <textarea name="msg" id="msg" cols=50></textarea>
+            <br>
+            <input type="submit" />
+       </form>
+
+    </main>
     <footer>
         <h2><i>Dados pessoais</i></h2>
         <p>
