@@ -1,7 +1,7 @@
 stackoverflow - Comunidade de programadores e Ofertas de trabalho
 
-Networking - hackerspacebnu.heokuapp.com
-	   - meetup.com
+Networking - hackerspacebnu.herokuapp.com
+	   	   - meetup.com
 
 www - World wide Web
 
