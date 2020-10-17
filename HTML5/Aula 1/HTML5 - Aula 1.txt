@@ -9,8 +9,10 @@ http - Hyper Text test prototype
 
 Cern first website - http://info.cern.ch/
 
-__________________CORPO HTLML_____________________________________
 HTML - Hypertext Markup Language
+
+Exemplo:
+__________________CORPO HTLML_____________________________________
 
 <!DOCTYPE html>
 
@@ -18,7 +20,7 @@ HTML - Hypertext Markup Language
 <head>
 	<meta charset = "UTF-8">
 	<meta name = "viewport" content = "width = device-with,
-									   inicial-scale = 1.0">
+					  inicial-scale = 1.0">
 	<title> Document </title>
 </head>
 <body>
@@ -26,3 +28,4 @@ HTML - Hypertext Markup Language
 </body>
 </html>
 _________________________________________________________________
+
