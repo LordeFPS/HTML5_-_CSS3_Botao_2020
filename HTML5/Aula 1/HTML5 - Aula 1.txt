@@ -11,3 +11,17 @@ Cern first website - http://info.cern.ch/
 
 HTML - Hypertext Markup Language
 
+<!DOCTYPE html>
+
+<html lang = "pt-br">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width = device-with,
+									   inicial-scale = 1.0">
+	<title> Document </title>
+</head>
+<body>
+
+</body>
+</html>
+
