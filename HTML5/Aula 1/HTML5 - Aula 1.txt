@@ -11,7 +11,9 @@ Cern first website - http://info.cern.ch/
 
 HTML - Hypertext Markup Language
 
-Exemplo:
+Verificar o Código https://validator.w3.org/
+
+Exemplo: HTML5
 __________________CORPO HTLML_____________________________________
 
 <!DOCTYPE html>
