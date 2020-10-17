@@ -13,6 +13,10 @@ HTML - Hypertext Markup Language
 
 Verificar o Código https://validator.w3.org/
 
+Contato Professor: 
+ricardo@brgweb.com.br
+linkedin.com/in/ric
+
 Exemplo: HTML5
 __________________CORPO HTLML_____________________________________
 
