@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Home</title>
+    
+    <style type="text/css">
+    body {
+			margin: 10px;
+		}
+    .cabecalho{
+        width: 100%;
+        height: 150px;
+        background: #dddddd;
+    }
+    .menu_left{
+        float: left;
+    }
+    .menu_right{
+        float: right;
+    }
+    .menu{
+        width: 112px;
+        height: 500px;
+        background:rgb(102, 99, 99);
+    }
+    .page{
+        width: 150px;
+        height: 500px;
+        background: teal;
+    }
+    .vertical_centralizado {
+        margin: 0;
+        position: absolute;
+        top: 75px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+    .botao{
+        
+        background: #232527;
+        background-image: -webkit-linear-gradient(top, #a8adb3, #1E62D0);
+        background-image: -moz-linear-gradient(top,  #a8adb3, #1E62D0);
+        background-image: -ms-linear-gradient(top,  #a8adb3, #1E62D0);
+        background-image: -o-linear-gradient(top, #a8adb3, #1E62D0);
+        background-image: -webkit-gradient(to bottom,  #a8adb3, #1E62D0);
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        color: #FFFFFF;
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 5;
+        padding: 5px;
+        -webkit-box-shadow: 1px 1px 20px 0 #000000;
+        -moz-box-shadow: 1px 1px 20px 0 #000000;
+        box-shadow: 1px 1px 20px 0 #000000;
+        text-shadow: 1px 1px 20px #000000;
+        border: solid #337FED 1px;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+    }
+    .botao:hover{
+        border: solid #337FED 1px;
+        background: #1E62D0;
+        background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+        background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+        background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+        background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+        background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        text-decoration: none;
+
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="cabecalho" class="cabecalho">
+            <div style="width: auto; height: auto; float: left; border: 0px; margin: 0px;">
+                
+                <img src="site_imagens/eu.jpg" alt="Botão" width="112">
+            </div>
+            
+            <div class="vertical_centralizado">
+                
+                <h1>Site de exercícios</h1>
+                
+            </div>
+        </div>
+    </header>
+    <main>
+        <div>
+            <div id="exercicio_1" class="left menu">
+            <a href="formulario.html" class="botao">Formulário</a>
+            
+        <p>
+            <a href="exercicio_2.html" class="botao">Exercício 2</a>
+            
+        </p>
+            <a href="exercicio_3.html" class="botao">Exercício 3</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

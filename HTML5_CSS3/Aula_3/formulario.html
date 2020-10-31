@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Formulário</title>
+
+    
+</head>
+<body>
+    <form style="
+        padding: 100px;
+        border: 1px
+        
+    "
+    >
+        <!-- Desenvolver um formulário de cadastro para uma rede social.
+            Este formulário deve pedir da forma mais confortável possível as seguintes informações-->
+            
+            <div id="nome">
+            <!-- Nome -->
+                <input type="text" placeholder="Nome" name="nome">
+            <!-- Sobrenome -->
+            <input type="text" placeholder="Sobrenome" name="sobrenome" id="sobrenome">
+            
+        </div>
+        <div id="senha">
+        <!-- Senha -->
+            <input type="passord" placeholder="Senha" name="senha">
+        <!-- Confirmação de senha -->
+            <input type="password" placeholder="Confirme a Senha" name="confirma_senha">
+        </div>
+        <div>
+        <!-- Celular -->
+            <input type="tel" placeholder="Telefone" name="telefone">
+        <!-- E-mail -->
+            <input type="email" placeholder="E-mail" name="email">
+        </div>
+        <!-- Data de nascimento -->
+        <div id="data_nasc">
+            <label>Data de nascimento:</label>
+            <input type="date" name="data_nasc" style="margin-left: 45px;">
+        </div>
+        <!-- Biografia -->
+        <div id="biografia">
+            <label>Biografia:</label></br>
+            <textarea name="msg" id="msg" cols=22 rows="9"></textarea>
+        </div>
+        <!-- Gostos favoritos(colocar 10 opções para o usuário) -->
+        <div id="gostos_favoritos">
+            <label>Gostos favoritos:</label></br>
+            <label for="op1" >1  - Banana    </label>
+            <input id="op1" type="checkbox" name="gostos_favoritos" style="margin-left: 40px;"></br>
+            <label for="op2">2  - Maçã      </label>
+            <input id="op2" type="checkbox" name="gostos_favoritos"style="margin-left: 52px;"> </br>
+            <label for="op3">3  - Arroz     </label>
+            <input id="op3" type="checkbox" name="gostos_favoritos"style="margin-left: 51px;"> </br>
+            <label for="op4">4  - Feijão    </label>
+            <input id="op4" type="checkbox" name="gostos_favoritos"style="margin-left: 48px;"> </br>
+            <label for="op5">5  - Macarrão  </label>
+            <input id="op5" type="checkbox" name="gostos_favoritos"style="margin-left: 26px;"> </br>
+            <label for="op6">6  - Esportes  </label>
+            <input id="op6" type="checkbox" name="gostos_favoritos"style="margin-left: 33px;"> </br>
+            <label for="op7">7  - E-sport   </label>
+            <input id="op7" type="checkbox" name="gostos_favoritos"style="margin-left: 41px;"> </br>
+            <label for="op8">8  - Jogos     </label>
+            <input id="op8" type="checkbox" name="gostos_favoritos"style="margin-left: 52px;"> </br>
+            <label for="op9">9  - PC        </label>
+            <input id="op9" type="checkbox" name="gostos_favoritos"style="margin-left: 69px;"> </br>
+            <label for="op10">10 - Tecnologia</label>
+			<input id="op10" type="checkbox" name="gostos_favoritos"style="margin-left: 10px;"> </br>
+        </div>
+        <!-- Sexo -->
+        <div>
+            <label>Selecione seu gênero:</label>
+			<label for="masc">Masculino</label>
+			<input id="masc"type="radio" name="sexo">
+			<label for="fem">Feminino</label>
+			<input id="fem" type="radio" name="sexo">
+		</div>
+        <!-- Plano premium (sim ou não) -->
+        <div>
+			<input id="plano_premium" type="checkbox" name="plano_premium">
+            <label for="plano_premium">Plano premium</label></br>
+			
+		</div>
+        <!-- Aceita os termos de uso (sim ou não) -->
+        <div>
+			<input id="termos_uso" type="checkbox" name="termos">
+            <label for="termos_uso">Aceito os termos de uso</label>
+		</div>
+        <!-- Foto de perfil -->
+        <div>
+            <label>Insira uma foto:</label>
+            <input type="file" name="foto">
+        </div>
+        <!-- Botão para levar ate o cadastro de endereço -->
+        <!-- <div>
+            <input type="submit" name="enviar">
+        </div> -->
+    <!-- Apó cadastrar estes dados o usuário deve ser levado para uma página onde deve cadastrar seu endereço:  -->
+
+    <!-- País -->
+
+    <!-- Estado -->
+
+    <!-- Cidade -->
+
+    <!-- Rua -->
+
+    <!-- Número -->
+
+    <!-- Complemento -->
+
+    </form>
+</body>
+</html>

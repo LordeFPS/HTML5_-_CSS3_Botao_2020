@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<style type="text/css">
+		.setor {
+            
+		}
+	</style>
+</head>
+<body>
+	<form style="
+		padding: 50px;
+	    border: 1px solid lightgrey;
+	    width: 350px;
+	    border-radius: 5px;
+	    background: lightblue;
+	    color: grey;
+	    margin-left: 20%;
+	    margin-top: 7%;
+	"
+	action="exercicio_1_endereco.html">
+	    <h1>Cadastro de Usuário</h1>	
+
+		<div class="setor">	
+			<div>
+				<input type="text" placeholder="Nome" name="nome">
+				<input type="text" placeholder="Sobrenome" name="sobrenome">
+			</div>
+
+			<div style="margin-top: 5px">
+				<input type="password" placeholder="Senha" name="senha">
+				<input type="password" placeholder="Confirme" name="confirme">
+			</div>
+
+			<div style="margin-top: 5px">
+				<input type="email" placeholder="Email" name="email">
+				<input type="tel" placeholder="Celular" name="Celular">
+			</div>
+
+
+			<div style="margin-top: 5px">
+				<label>Nascimento</label>
+				<input style="margin-left: 109px" type="date" name="data_nascimento">
+			</div>
+
+			<label >Sexo:</label>
+			<div>
+				<label>Masculino</label>
+				<input type="radio" name="sexo">
+
+				<label>Feminino</label>
+				<input type="radio" name="sexo">
+
+				<label>Outros</label>
+				<input type="radio" name="sexo">
+			</div>
+
+			<div style="margin-top: 5px">
+				<label>Bio</label>
+			</div>
+			<div>
+				<textarea style="width: 325px" name="biografia" rows="10"> </textarea>
+			</div>
+		</div>
+
+		<div class="setor">	
+			<label style="margin-top: 5px">Assinale seus gostos favoritos:</label>
+			<div >
+				<label>Esportes</label>
+				<input type="checkbox" name="esportes">
+
+				<label>Esportes</label>
+				<input type="checkbox" name="esportes">
+
+				<label>Esportes</label>
+				<input type="checkbox" name="esportes">
+
+				<label>Esportes</label>
+				<input type="checkbox" name="esportes">
+			</div>
+
+			<div >
+				<label>Esportes</label>
+				<input type="checkbox" name="esportes">
+
+				<label>Esportes</label>
+				<input type="checkbox" name="esportes">
+
+				<label>Esportes</label>
+				<input type="checkbox" name="esportes">
+
+				<label>Esportes</label>
+				<input type="checkbox" name="esportes">
+			</div>
+
+			<div>
+				<label>Esportes</label>
+				<input type="checkbox" name="esportes">
+
+				<label>Esportes</label>
+				<input type="checkbox" name="esportes">
+			</div>
+
+
+			<div style="margin-top: 10px;margin-bottom: 5px">
+				<label>Foto do perfil</label>
+				<input type="file" name="foto_perfil">
+			</div>
+		</div>
+
+
+		
+		<div class="setor">	
+			<div style="margin-top: 10px">
+				<input type="checkbox" name="esportes">
+				<label>Plano premium</label>
+			</div>
+
+			<div>
+				<input type="checkbox" name="esportes">
+				<label>Aceita os termos de uso</label>
+			</div>
+
+			<div style="margin-top: 10px">
+				<input type="reset" name="reset">
+				<input type="submit" name="submit">
+			</div>
+		</div>
+			
+
+	</form>
+
+</body>
+</html>
